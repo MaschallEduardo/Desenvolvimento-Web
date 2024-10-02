@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background-color: black;
+    flex-direction: column;
+}
+
+img{
+    margin-bottom: 50px;
+}
+
+form{
+    border: 2px solid aqua;
+    width: 600px;
+    padding: 10px auto;
+    height: 55vh;
+   
+}
+
+.caixa-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.email, .senha{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.input{
+    background-color: #01eaff;
+    width: 400px;
+    height: 3vh;
+    padding: 10px;
+}
+
+.lembre-de-mim{
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    margin-top: -22px
+}
+
+.botton-entrar{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.botao{
+    width: 150px;
+    height: 30px;
+    background-color: #01eaff;
+    border-radius: 5px;
+}
+
+.botao:hover{
+    height: 35px;
+    width: 155px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.text-options, #text-options{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 50px;
+}
